@@ -1,0 +1,82 @@
+body {
+  margin-top: 0;
+  /* width: 100vw;
+  height: 100vh; */
+ background-image: url('https://images4.alphacoders.com/729/thumb-1920-729797.png')  
+}
+
+.App {
+  
+  /* align-items: center;
+  justify-content: center; */
+  background-color: black;
+  color:antiquewhite;
+/*    background-image: url('https://nerdmacia.cl/wp-content/uploads/2017/06/Rick_and_Morty_Logo_and_Image.png')  */
+}
+
+h2 {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  color: chartreuse;
+  font-size: 4rem;
+  background-image: url('https://c8.alamy.com/comp/P4JAAP/original-film-title-rick-and-morty-english-title-rick-and-morty-film-director-dan-harmon-justin-roiland-year-2013-credit-adult-swim-album-P4JAAP.jpg')
+}
+
+article {
+  background-image: url('https://c8.alamy.com/comp/P4JAAP/original-film-title-rick-and-morty-english-title-rick-and-morty-film-director-dan-harmon-justin-roiland-year-2013-credit-adult-swim-album-P4JAAP.jpg')
+}
+
+.Resident {
+  display: flex;
+  justify-content: space-around;
+  gap: 10%;
+  flex-wrap: wrap;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 2rem;
+  color:lawngreen;
+  font-style: oblique;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  
+}
+
+input {
+  width: 400px;
+  height: 50px;
+  font-size: 3rem;
+  background-color: chartreuse;
+}
+
+.card {
+  /* width: min(400px, 80%);  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 5px 0 blue;
+  background:linear-gradient(rgba(0, 250, 21, 0.884),transparent);
+  margin-top: 20px;
+  width: 600px;
+  }
+
+  
+
+
+
+
+
+
+
+
