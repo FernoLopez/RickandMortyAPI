@@ -8,7 +8,7 @@ const searchLocation = e => {
   }
     
   return (
-    <form onSubmit={searchLocation}>
+    <form className="input_style" onSubmit={searchLocation}>
         <input type="text" placeholder="type a location id" />
         <input type="submit" value="Submit" />
     </form> 
